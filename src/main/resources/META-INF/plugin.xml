@@ -5,7 +5,7 @@
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
-    <name>Idea-plugin-demo</name>
+    <name>Idea Plugin Demo</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
     <vendor email="support@yourcompany.com" url="https://www.yourcompany.com">YourCompany</vendor>
@@ -25,6 +25,31 @@
     <!-- Extension points defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-
+        <notificationGroup id="Idea Plugin Demo" displayType="BALLOON"/>
+        <editorNotificationProvider implementation="com.example.ideaplugindemo.component.MyEditorNotificationPanel"/>
     </extensions>
+
+    <actions>
+        <action id="balloonNotificationAction"
+                text="气泡通知测试"
+                class="com.example.ideaplugindemo.action.BalloonNotificationAction"
+                />
+        <action id="editorHintsAction"
+                text="编辑器hit测试"
+                class="com.example.ideaplugindemo.action.EditorHitsAction"/>
+        <action id="messageDialogAction"
+                text="MessageDialog测试"
+                class="com.example.ideaplugindemo.action.MessageDialogAction"/>
+        <group id="notificationTest" popup="true"
+               text="通知测试">
+            <add-to-group group-id="EditorPopupMenu" anchor="after" relative-to-action="$Paste"/>
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+            <separator/>
+            <reference ref="balloonNotificationAction"/>
+            <separator/>
+            <reference ref="editorHintsAction"/>
+            <separator/>
+            <reference ref="messageDialogAction"/>
+        </group>
+    </actions>
 </idea-plugin>
