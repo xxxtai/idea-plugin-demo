@@ -3,7 +3,7 @@ IntelliJ IDEA是Java开发者首选的集成编辑器，对提升开发效率的
 
 
 作者开发过三款插件，其中Smart Input Source推荐给大家使用，它可以实现根据输入处上下文自动切换到对应的输入法，将开发者从杂乱繁琐的输入法切换中解救出来。效果如下动图，具体效果请查看《[IntelliJ IDEA插件实现自动切换输入法](https://juejin.cn/post/7179055031423860794)》欢迎到插件市场下载安装。
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e5047c7dbb44334a6bf9fc3342acf67~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp?)
+![Smart Input Source插件效果动图](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e5047c7dbb44334a6bf9fc3342acf67~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp?)
 
 # 目录
 1. [IntelliJ IDEA插件开发系列教程综述](https://juejin.cn/post/7183264525519421498)
