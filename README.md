@@ -1,54 +1,17 @@
 # 序言
-IntelliJ IDEA是Java开发者首选的集成编辑器，对提升开发效率的追求是作为进步型开发者永远的目标，而IDEA插件便是提升开发效率的核心手段，掌握了IDEA插件开发技术便可以按照自己的想法来实现。一般的开发者先是满足自己的需要而开发插件，然后慢慢的发现很多人共同的需求，插件逐渐被更多人使用。
+JetBrains公司系列产品IDEA、WebStrom、PyCharm、CLion、GoLand等都是基于IntelliJ Platform开发而成，掌握IntelliJ插件开发技能便能拥有提升开发效率的终极武器。
 
-
-作者开发过三款插件，其中Smart Input Source推荐给大家使用，它可以实现根据输入处上下文自动切换到对应的输入法，将开发者从杂乱繁琐的输入法切换中解救出来。效果如下动图，具体效果请查看《[IntelliJ IDEA插件实现自动切换输入法](https://juejin.cn/post/7179055031423860794)》欢迎到插件市场下载安装。
-
-![Smart Input Source插件效果动图](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e5047c7dbb44334a6bf9fc3342acf67~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp?)
+如果您是JetBrains产品的用户，那您一定要看看这篇文章：[JetBrains IntelliJ支持自动切换输入法，写代码如丝般顺滑](https://mp.weixin.qq.com/s?__biz=MzIzMzcyNzA3Mw==&mid=2247483757&idx=1&sn=85260c90639afedc082ade647ca8a55b&chksm=e8807463dff7fd757e775066f4f07075d7c682b1d813f666bd3c195f471defdc659bb8466c29&scene=21#wechat_redirect)
 
 # 目录
-1. [IntelliJ IDEA插件开发系列教程综述](https://juejin.cn/post/7183264525519421498)
 
-2. [IntelliJ IDEA插件开发系列教程之开发思路](https://juejin.cn/post/7183264353192247354/)
+1. [IntelliJ IDEA插件开发系列教程之开发思路](https://mp.weixin.qq.com/s?__biz=MzIzMzcyNzA3Mw==&mid=2247483782&idx=1&sn=408f2d27c2cbf394254cadb26f31a753&chksm=e8807488dff7fd9e01914fed3273c9e09db01fa034748c844ea6f2fffac0c5efbd183ae2419b&scene=178&cur_album_id=2815070715065532417#rd)
 
-3. [IntelliJ IDEA插件开发系列教程之新建项目](https://juejin.cn/post/7183522118145933370/)
+2. [IntelliJ IDEA插件开发系列教程之新建项目](https://mp.weixin.qq.com/s?__biz=MzIzMzcyNzA3Mw==&mid=2247483782&idx=2&sn=9545ed263c332490457d2978ef754870&chksm=e8807488dff7fd9efa409615de065d7f2fa393eaddc94d5c57c1f5b809866ca7de83c817a4f2&scene=178&cur_album_id=2815070715065532417#rd)
 
-3. IntelliJ IDEA插件开发系列教程之调试插件（待续）
+3. [IntelliJ IDEA插件开发系列教程之调试插件](https://mp.weixin.qq.com/s?__biz=MzIzMzcyNzA3Mw==&mid=2247483782&idx=3&sn=0cbc19c72cfe086949b017dc1a6c4b2d&chksm=e8807488dff7fd9eb7ccb0219deb7e67b62de1fb52f1975451731def1dc0b362b343540bae59&scene=178&cur_album_id=2815070715065532417#rd)
 
-3. IntelliJ IDEA插件开发系列教程之新建Action（待续）
 
-3. IntelliJ IDEA插件开发系列教程之Notification（待续）
+教程还在持续更新中，完整教程合集请查看[](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIzMzcyNzA3Mw==&action=getalbum&album_id=2815070715065532417#wechat_redirect)，关注微信公众号”开发效率“，第一时间获取教程更新信息。
 
-3. IntelliJ IDEA插件开发系列教程之Dialog（待续）
-
-3. IntelliJ IDEA插件开发系列教程之Document（待续）
-
-3. IntelliJ IDEA插件开发系列教程之ToolWindow（待续）
-
-3. IntelliJ IDEA插件开发系列教程之Swing GUI（待续）
-
-3. IntelliJ IDEA插件开发系列教程之跳转链接（待续）
-
-3. IntelliJ IDEA插件开发系列教程之插件设置（待续）
-
-3. IntelliJ IDEA插件开发系列教程之配置持久化（待续）
-
-3. IntelliJ IDEA插件开发系列教程之键盘事件（待续）
-
-3. IntelliJ IDEA插件开发系列教程之光标事件（待续）
-
-3. IntelliJ IDEA插件开发系列教程之鼠标事件（待续）
-
-3. IntelliJ IDEA插件开发系列教程之App事件（待续）
-
-3. IntelliJ IDEA插件开发系列教程之窗口事件（待续）
-
-3. IntelliJ IDEA插件开发系列教程之插件ICON（待续）
-
-3. IntelliJ IDEA插件开发系列教程之PSI（待续）
-
-3. IntelliJ IDEA插件开发系列教程之VirtualFile（待续）
-
-3. IntelliJ IDEA插件开发系列教程之自定义语言（待续）
-
-3. IntelliJ IDEA插件开发系列教程之发布插件（待续）
+![](https://smart-input-source-1315501506.cos.ap-shanghai.myqcloud.com/public/qrcode_for_weixingongzhong.jpg)
