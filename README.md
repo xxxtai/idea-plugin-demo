@@ -1,6 +1,8 @@
 # 序言
 JetBrains公司系列产品IDEA、WebStrom、PyCharm、CLion、GoLand等都是基于IntelliJ Platform开发而成，掌握IntelliJ插件开发技能便能拥有提升开发效率的终极武器。
 
+自己探索IntelliJ插件开发之路并不好走，国内这方面资料较少且不成体系，虽然有官方的开发教程，但是英文版不太好理解而且讲得太浅，以至于会遇到很多无法解决的问题。因此，作者写了这篇系列教程，为了让中文开发者快速入门。
+
 如果您是JetBrains产品的用户，那您一定要看看这篇文章：[JetBrains IntelliJ支持自动切换输入法，写代码如丝般顺滑](https://mp.weixin.qq.com/s?__biz=MzIzMzcyNzA3Mw==&mid=2247483757&idx=1&sn=85260c90639afedc082ade647ca8a55b&chksm=e8807463dff7fd757e775066f4f07075d7c682b1d813f666bd3c195f471defdc659bb8466c29&scene=21#wechat_redirect)
 
 # 目录
