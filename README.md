@@ -14,6 +14,6 @@ JetBrains公司系列产品IDEA、WebStrom、PyCharm、CLion、GoLand等都是�
 3. [IntelliJ IDEA插件开发系列教程之调试插件](https://mp.weixin.qq.com/s?__biz=MzIzMzcyNzA3Mw==&mid=2247483782&idx=3&sn=0cbc19c72cfe086949b017dc1a6c4b2d&chksm=e8807488dff7fd9eb7ccb0219deb7e67b62de1fb52f1975451731def1dc0b362b343540bae59&scene=178&cur_album_id=2815070715065532417#rd)
 
 
-教程还在持续更新中，完整教程合集请查看[](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIzMzcyNzA3Mw==&action=getalbum&album_id=2815070715065532417#wechat_redirect)，关注微信公众号”开发效率“，第一时间获取教程更新信息。
+完整教程合集请查看[IntelliJ Platform 插件开发教程](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIzMzcyNzA3Mw==&action=getalbum&album_id=2815070715065532417#wechat_redirect)，教程还在持续更新中，关注微信公众号”开发效率“，第一时间获取教程更新信息。
 
 ![](https://smart-input-source-1315501506.cos.ap-shanghai.myqcloud.com/public/qrcode_for_weixingongzhong.jpg)
